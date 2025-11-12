@@ -10,7 +10,6 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '指南', link: '/' },
-      // { text: '', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -18,7 +17,6 @@ export default defineConfig({
         text: '指南',
         items: [
           { text: 'mysql', link: '/markdown-examples' },
-          // { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
     ],
