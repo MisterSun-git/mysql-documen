@@ -7,6 +7,9 @@ export default defineConfig({
   title: "mysql-document",
   description: "mysql used document",
   themeConfig: {
+    search:{
+      provider:'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '指南', link: '/' },
