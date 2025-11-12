@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  srcDir: "docs\\zh-CN",
+  srcDir: "docs/zh-CN",
   
   title: "mysql-document",
   description: "mysql used document",
